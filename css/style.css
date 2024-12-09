@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#chartContainer {
+  width: 90%;
+  height: 90%;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.axis path,
+.axis line {
+  stroke: #ddd;
+}
+
+.tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  pointer-events: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
